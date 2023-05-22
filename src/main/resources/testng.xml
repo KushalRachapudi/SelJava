@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="Test automtion regression suite" verbose="1"  >
+<suite name="Test automtion regression suite" verbose="1"  parallel="tests" thread-count="2" >
 
 	<test name="Freshworks - Chrome test">
 		<parameter name="browser" value="chrome" />
@@ -11,15 +11,13 @@
 		</classes>
 	</test>
 
-<!--<test name="Freshworks - FireFox test">
+
+	<test name="Freshworks - FireFox test">
 		<parameter name="browser" value="firefox" />
 		<classes>
 			<class name="testcases.TC01_VerifyFreeTrialBtnName" />
 			<class name="testcases.TC02_VerifyPageTitle" />
 		</classes>
 	</test>
-Azure PIpeline require special grant for parallel execution
- -->
-	
 
 </suite>
