@@ -1,4 +1,5 @@
 pages\LandingPage.class
+testcases\PlanTest.class
 testcases\TC01_VerifyFreeTrialBtnName.class
 listeners\MyTestListener.class
 testcases\TC02_VerifyPageTitle.class
