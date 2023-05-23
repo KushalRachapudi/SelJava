@@ -1,17 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-23T04:50:51Z" name="Test automtion regression suite" finished-at="2023-05-23T04:50:51Z" duration-ms="21">
+  <suite started-at="2023-05-23T05:18:31Z" name="Test automtion regression suite" finished-at="2023-05-23T05:18:41Z" duration-ms="9851">
     <groups>
     </groups>
-    <test started-at="2023-05-23T04:50:51Z" name="Freshworks - Chrome test" finished-at="2023-05-23T04:50:51Z" duration-ms="21">
+    <test started-at="2023-05-23T05:18:31Z" name="Freshworks - Chrome test" finished-at="2023-05-23T05:18:41Z" duration-ms="9851">
       <class name="testcases.PlanTest">
-        <test-method signature="verifyfreeTrialBtn()[pri:1, instance:testcases.PlanTest@4135c3b]" started-at="2023-05-23T04:50:51Z" name="verifyfreeTrialBtn" finished-at="2023-05-23T04:50:51Z" duration-ms="4" status="PASS">
+        <test-method signature="verifyfreeTrialBtn()[pri:1, instance:testcases.PlanTest@3590fc5b]" started-at="2023-05-23T05:18:31Z" name="verifyfreeTrialBtn" finished-at="2023-05-23T05:18:31Z" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyfreeTrialBtn -->
       </class> <!-- testcases.PlanTest -->
+      <class name="testcases.TC02_VerifyPageTitle">
+        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:testcases.TC02_VerifyPageTitle@41d477ed]" started-at="2023-05-23T05:18:31Z" name="setupBrowser" finished-at="2023-05-23T05:18:38Z" duration-ms="6988" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="verifypagetile()[pri:2, instance:testcases.TC02_VerifyPageTitle@41d477ed]" started-at="2023-05-23T05:18:38Z" name="verifypagetile" finished-at="2023-05-23T05:18:40Z" duration-ms="2055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifypagetile -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC02_VerifyPageTitle@41d477ed]" started-at="2023-05-23T05:18:40Z" name="tearDown" finished-at="2023-05-23T05:18:41Z" duration-ms="785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC02_VerifyPageTitle -->
     </test> <!-- Freshworks - Chrome test -->
   </suite> <!-- Test automtion regression suite -->
 </testng-results>

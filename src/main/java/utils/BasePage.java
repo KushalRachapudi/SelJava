@@ -31,12 +31,13 @@ public class BasePage {
 			 * driver = new ChromeDriver(options);
 			 */
 			
-			ChromeOptions options = new ChromeOptions();
-			options.addArguments("--headless=new");
-			driver = new ChromeDriver(options);
+			/*
+			 * ChromeOptions options = new ChromeOptions();
+			 * options.addArguments("--headless=new"); driver = new ChromeDriver(options);
+			 */
 			
 			
-			//driver = new ChromeDriver();
+			driver = new ChromeDriver();
 		}
 
 		else if (browser.equalsIgnoreCase("firefox")) {

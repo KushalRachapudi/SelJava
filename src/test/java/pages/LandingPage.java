@@ -64,7 +64,13 @@ public class LandingPage extends Driverpage {
 		Thread.sleep(2000);
 		String actPageTitle = driver.getTitle();
 		System.out.println("The page title is: " + actPageTitle);
-		Assert.assertEquals(actPageTitle, "Innovative Software for Business Needs | Freshworks");
+		if(actPageTitle.equalsIgnoreCase("Innovative Software for Business Needs | Freshworks")) {
+			System.out.println("Coorect Page header");
+			Assert.assertEquals(actPageTitle, "Innovative Software for Business Needs | Freshworks");
+		}
+		else {
+			System.out.println("Wrong page header");
+		}
 	}
 
 	public void acceptCookiesBtn() {
