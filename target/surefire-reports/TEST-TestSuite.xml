@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="34.919" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="13.037" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -17,7 +17,7 @@
     <property name="sun.boot.library.path" value="C:\Users\kushal.rachapudi\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208\jre\bin"/>
     <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean install"/>
     <property name="jdk.debug" value="release"/>
-    <property name="maven.home" value="C:\Users\kushal.rachapudi\Documents\JavaSelAzure\NaveenCode\AzureSeleniumDemo-master\AzureSeleniumDemo-master\EMBEDDED"/>
+    <property name="maven.home" value="C:\Users\kushal.rachapudi\Documents\AzureCICD\Freshwork_Repo\SelJava\EMBEDDED"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\kushal.rachapudi"/>
     <property name="user.language" value="en"/>
@@ -43,9 +43,9 @@
     <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
     <property name="java.io.tmpdir" value="C:\Users\KUSHAL~1.RAC\AppData\Local\Temp\"/>
     <property name="java.version" value="17.0.2"/>
-    <property name="user.dir" value="C:\Users\kushal.rachapudi\Documents\JavaSelAzure\NaveenCode\AzureSeleniumDemo-master\AzureSeleniumDemo-master"/>
+    <property name="user.dir" value="C:\Users\kushal.rachapudi\Documents\AzureCICD\Freshwork_Repo\SelJava"/>
     <property name="os.arch" value="amd64"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\kushal.rachapudi\Documents\JavaSelAzure\NaveenCode\AzureSeleniumDemo-master\AzureSeleniumDemo-master"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\kushal.rachapudi\Documents\AzureCICD\Freshwork_Repo\SelJava"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
@@ -53,12 +53,9 @@
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Eclipse Adoptium"/>
     <property name="java.vm.version" value="17.0.2+8"/>
-    <property name="classworlds.conf" value="C:\Users\kushal.rachapudi\Documents\JavaSelAzure\NaveenCode\AzureSeleniumDemo-master\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4399695533847006582.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\kushal.rachapudi\Documents\AzureCICD\Freshwork_Workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf10458391529884395848.tmp"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="verifyCompanyLogo" classname="testcases.TC01_VerifyFreeTrialBtnName" time="0.072"/>
-  <testcase name="verifyCompanyLogo" classname="testcases.TC01_VerifyFreeTrialBtnName" time="0.048"/>
-  <testcase name="verifypagetile" classname="testcases.TC02_VerifyPageTitle" time="0.021"/>
-  <testcase name="verifypagetile" classname="testcases.TC02_VerifyPageTitle" time="0.009"/>
+  <testcase name="verifyfreeTrialBtn" classname="testcases.TC01_VerifyFreeTrialBtnName" time="10.129"/>
 </testsuite>

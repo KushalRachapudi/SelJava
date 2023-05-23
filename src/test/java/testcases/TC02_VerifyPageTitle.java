@@ -11,7 +11,7 @@ public class TC02_VerifyPageTitle  extends BasePage{
 
 
 	@Test(priority = 2)
-	public void verifypagetile() {
+	public void verifypagetile() throws Exception {
 		LandingPage lanPgObj = PageFactory.initElements(driver, LandingPage.class);
 		lanPgObj.pageTitle();
 	
