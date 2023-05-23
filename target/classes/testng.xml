@@ -6,8 +6,8 @@
 	<test name="Freshworks - Chrome test">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="testcases.TC01_VerifyFreeTrialBtnName" />
-			<!--<class name="testcases.TC02_VerifyPageTitle" />-->
+			<!--<class name="testcases.TC01_VerifyFreeTrialBtnName" />-->
+			<class name="testcases.TC02_VerifyPageTitle" />
 
 			<class name="testcases.PlanTest" />
 		</classes>
